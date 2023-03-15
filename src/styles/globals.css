@@ -85,15 +85,7 @@ body {
   overflow-x: hidden;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
+
 
 a {
   color: inherit;
@@ -104,4 +96,75 @@ a {
   html {
     color-scheme: dark;
   }
+}
+
+.pokemonTitle{
+  text-transform: capitalize;
+  font-weight: 640;
+  font-size: x-large;
+  text-align: center;
+}
+.pokemonSubtitle{
+  text-transform: capitalize;
+  font-weight: 640;
+  font-size: larger;
+}
+.avatarName{
+  text-transform: uppercase;
+  color: white;
+  font-weight: 640;
+  font-size: x-large;
+  text-align: center;
+}
+.pokemonId{
+  font-weight: 400;
+  font-size: larger;
+}
+.pokemonDetails{
+  font-weight: 400;
+  font-size: x-large;
+}
+.levelText{
+  font-weight: 400;
+  font-size: x-large;
+  color: #d5d8d0;
+  text-transform: capitalize;
+}
+.pokemonImage{
+  object-fit: contain;
+}
+.pokemonImageDetail{
+  object-fit: contain;
+  width: 190px;
+  height: 210px;
+}
+.typePill{
+  text-transform: capitalize;
+}
+.sidebar{
+  background-color: #566CD6;
+  max-height: 100vh;
+}
+.header{
+  background-color: #566CD6;
+}
+.sidebarMessage{
+  font-weight: 400;
+  font-size: larger;
+  color: #d5d8d0;
+}
+.sidebarContainer{
+  position: sticky;
+}
+.logo{
+  object-fit: contain;
+}
+.logOutButton{
+  width: 90%;
+  background: #7789df;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.logo{
+  width: 170px;
 }
